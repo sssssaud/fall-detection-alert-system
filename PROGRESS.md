@@ -14,4 +14,4 @@ Session save-file. Re-read at session start; update after each step.
 - Laptop now on the home 2.4 GHz WiFi, the same network the ESP32 will join.
 - To simulate a fall: hold the board **upright** (like on a belt), drop it so it lands **flat**. A flat drop that lands flat is correctly not a fall (no tip-over).
 - 2026-10-12: Saud's phone hotspot set to the same name/password as the college hotspot (2.4 GHz ch 6, WPA2/WPA3) → ESP32 joined it on its own (10.95.115.78, −54 dBm), `falldetector.local` works on it.
-- Not a git repo yet; init when Saud asks to publish.
+- 2026-10-26: published at https://github.com/sssssaud/fall-detection-alert-system (public, Saud asked to share it). README added; home/college WiFi names removed from the docs; `secrets.h` stays local only.
